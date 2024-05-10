@@ -1,10 +1,48 @@
 header {
     background-color: #b71111;
-    color: white
-}
+    color: white;
+
+      display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 24px 0;
+
+        .cabecalho-lista-item{
+            display: inline-block;
+            margin: 0 16px;
+            font-size: 24px;
+        }
+        
+    }
+    
+
 
 body {
-    background-color:#FFEADF
-    ;
-
+    background-color:#FFEADF;  
+    
 }
+    .escola-imagem{
+        width: 50%;
+    }
+    .escola{
+        background-image: linear-gradient(#d32828, #000000);
+        color: white;
+    display: flex;
+    }
+    
+    .escola-div-conteudo{
+        width: 35%;
+    }
+    .escola-titulo{
+        padding: 24px 0;
+    }
+    .escola{
+        background-image: linear-gradient(#f8f8f8,#ad0202);
+        color:black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+               
+
